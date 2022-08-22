@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.arcgismapblog.ArcGISMapBlog" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Arc GISMap Blog</name>
+    <description>Build along ArcGIS map widget</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="basemap" type="string" required="true" defaultValue="streets-vector">
+                <caption>Basemap</caption>
+                <description>The name of the basemap you want to use</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
